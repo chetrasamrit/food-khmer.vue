@@ -1,10 +1,14 @@
 <template>
-  <div>
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-
+  <Header />
+  
+  <main class="p-5">
     <router-view />
-  </div>
+  </main>
+
+  <Footer /> <!-- add footer here -->
 </template>
+
+<script setup lang="ts">
+import Header from './components/Home/Header.vue'
+import Footer from './components/Home/Footer.vue'
+</script>

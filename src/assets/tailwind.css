@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@import "@fontsource/battambang"; /* default weight: 400 */
+
+body {
+  font-family: 'Battambang', sans-serif;
+}

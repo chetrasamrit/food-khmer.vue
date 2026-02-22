@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>Home Page</h1>
-  </div>
+  <h1>
+    សួរស្ដី
+  </h1>
 </template>
